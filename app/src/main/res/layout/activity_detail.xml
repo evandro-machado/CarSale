@@ -114,6 +114,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/precoTextView"
         android:layout_alignStart="@+id/precoTextView"
-        android:layout_marginBottom="64dp" />
+        android:layout_marginBottom="64dp"
+        android:onClick="comprar" />
 
 </RelativeLayout>
