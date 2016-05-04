@@ -67,8 +67,7 @@ public class MasterActivity extends AppCompatActivity {
                     System.out.println("Id do carro:" + idCarro.longValue());
                 }
                 startActivity(it);
-                Toast.makeText(MasterActivity.this, "Clicou na " + carro[+ position], Toast.LENGTH_SHORT).show();
-
+                finish();
             }
         });
     }

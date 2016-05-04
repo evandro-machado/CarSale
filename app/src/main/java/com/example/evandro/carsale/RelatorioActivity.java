@@ -20,7 +20,7 @@ public class RelatorioActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_relatorio);
         String[] carro = {"Gol", "Uno", "Palio", "Fox BlueMotion", "Siena EL", "Celta", "Voyage", "HB20", "Onix", "320i"};
-        Double[] preco = {2.0, 1.0, 25056.55, 46987.89, 37767.87, 29877.65, 45899.55, 33789.99, 39898.77, 10.0};
+        Double[] preco = {35432.67, 31765.32, 25056.55, 46987.89, 37767.87, 29877.65, 45899.55, 33789.99, 39898.77, 120766.78};
         Double total = 0.0;
         Intent it = getIntent();
         totalTextView = (TextView) findViewById(R.id.total);
